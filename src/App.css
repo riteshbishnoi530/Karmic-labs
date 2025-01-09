@@ -1,0 +1,6 @@
+body{
+  background-image: url('/public/assets/images/karmic-bg.webp');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
