@@ -25,6 +25,7 @@ module.exports = {
 
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/hero-bg-layer.webp')",
+        'project-layer': "url('/public/assets/images/project-bg-layer.webp')",
       }
     },
   },

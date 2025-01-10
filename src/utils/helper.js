@@ -83,3 +83,38 @@ export const SERVICES_LIST = [
       description: "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day.",
     },
   ];
+
+  export const PROJECT_LIST = [
+    {
+        image:'/assets/images/nubbies-pfp.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/nubbies-.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/galactium-.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/galactium-pfp.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/nekozuma-pfp.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/frenz-forever-network.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/teacherspet.webp',
+        title: 'Nubbies'
+    },
+    {
+        image:'/assets/images/teacherspet-pfp.webp',
+        title: 'Nubbies'
+    }
+  ];
