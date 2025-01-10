@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       fontSize: {
         'custom-6xl': '64px',
-        'custom-5xl': '48px',
+        'custom-5xl': '56px',
       },
       colors: {
         'off-white': '#FFFFFF1A',
