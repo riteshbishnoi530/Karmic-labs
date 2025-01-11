@@ -14,7 +14,7 @@ const Services = () => {
                     className="max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
                 />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20 max-lg:mt-16 max-md:mt-12">
+            <div className="grid grid-cols-1 font-space-grotesk md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20 max-lg:mt-16 max-md:mt-12">
                 {SERVICES_LIST.map((obj, i) => (
                     <div
                         className={`border border-solid border-transparent transition-all ease-linear duration-200 hover:bg-off-white rounded-xl w-full max-w-[364px] p-5 mx-auto`}

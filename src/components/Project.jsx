@@ -14,7 +14,7 @@ function Project() {
                     className="max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
                 />
             </div>
-            <p className='max-w-[532px] mx-auto text-center text-black mt-2'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
+            <p className='max-w-[532px] mx-auto text-center text-black mt-2 font-space-grotesk'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
             <div className="flex justify-center flex-wrap gap-x-4 gap-y-6 mt-[53px]">
             {PROJECT_LIST.map ((obj,i) => (
                 <div className='relative group hover:scale-125 hover:z-10 transition-all ease-in-out duration-300 cursor-pointer' key={i}>
