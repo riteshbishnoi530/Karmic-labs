@@ -4,7 +4,8 @@ import { Arrow } from '../utils/icons'
 
 function Hero() {
     return (
-        <div>
+        <div className='relative'>
+            <img className='absolute top-0 left-0 pointer-events-none max-w-[184px] w-full' src="/assets/images/hero-top-left-img.webp" alt="top left image" />
             <Header />
             <div className='bg-hero-layer bg-cover bg-center bg-no-repeat py-[158px] max-lg:py-24 max-lg:py- px-4'>
                 <div className="container flex max-lg:flex-col justify-between max-lg:justify-center gap-5">

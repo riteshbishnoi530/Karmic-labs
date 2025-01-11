@@ -19,14 +19,14 @@ function Project() {
             {PROJECT_LIST.map ((obj,i) => (
                 <div className='relative group hover:scale-125 hover:z-10 transition-all ease-in-out duration-300 cursor-pointer' key={i}>
                     <img className='max-w-[273px]' src={obj.image} alt="" />
-                    <div className='bg-slate-600 rounded-b-lg py-3 absolute bottom-0 w-full hidden group-hover:block'>
+                    <div className='bg-off-gray backdrop-blur-[9px] rounded-b-lg py-3 absolute bottom-0 w-full hidden group-hover:block'>
                     <p className='text-xl font-bold text-center text-white '>{obj.title}</p>
                     </div>
                 </div>
             ))}
             </div>
             </div>
-            <div className='flex justify-center mt-[56px]'>
+            <div className='flex justify-center mt-14 max-lg:mt-12 max-md:mt-10 max-sm:mt-7'>
             <button className='text-black font-medium py-3 px-8 rounded-[82px] border border-black hover:scale-110 duration-300 ease-linear'>View All</button>
             </div>
         </div>

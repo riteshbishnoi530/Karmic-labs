@@ -21,6 +21,7 @@ module.exports = {
       },
       colors: {
         'off-white': '#FFFFFF1A',
+        'off-gray': '#FFFFFF4D',
       },
 
       backgroundImage: {

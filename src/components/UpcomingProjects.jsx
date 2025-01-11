@@ -4,7 +4,8 @@ import Heading from '../common/Heading'
 
 function UpcomingProjects() {
     return (
-        <div id='projects' className='pt-20 pb-[136px] max-lg:pb-24 max-md:pt-12'>
+        <div id='projects' className='relative pt-20 pb-[136px] max-lg:pb-24 max-md:pt-12'>
+            <img className='absolute bottom-0 max-w-[182px] right-0' src="/assets/images/upcoming-right-img.webp" alt="upcoming image" />
             <div className="max-w-[540px] max-sm:max-w-[300px] mx-auto relative pb-12">
                 <Heading heading={"Upcoming Projects "} />
                 <img
