@@ -6,7 +6,7 @@ import Heading from "../common/Heading";
 const Services = () => {
     return (
         <div className="relative">
-                        <img className="absolute -bottom-40 max-w-[182px] left-0" src="/assets/images/upcoming-bottom-left-img.webp" alt="service bottom image" />
+                        <img className="absolute max-lg:hidden -bottom-40 max-w-[182px] left-0" src="/assets/images/upcoming-bottom-left-img.webp" alt="service bottom image" />
         <div id="services" className="container">
             <div className="max-w-[450px] max-sm:max-w-[300px] mx-auto relative">
                 <Heading heading={"Services"}/>

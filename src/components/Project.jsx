@@ -4,7 +4,7 @@ import { PROJECT_LIST } from '../utils/helper'
 
 function Project() {
     return (
-        <div className='bg-project-layer bg-no-repeat bg-cover bg-top py-[121px]  px-4'>
+        <div className='bg-project-layer bg-no-repeat bg-cover bg-center py-[121px]  px-4'>
             <div className="container">
             <div className="max-w-[450px] max-sm:max-w-[300px] mx-auto relative">
                 <Heading heading="Projects" myClass="!text-black" />

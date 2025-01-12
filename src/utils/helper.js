@@ -1,4 +1,4 @@
-import { Consultation, Marketing, NftService, SmartContract, WebService } from "./icons";
+import { Blockchain, Consultation, Marketing, NftService, SmartContract, Trust, WebService, Wthree } from "./icons";
 
 export const HEADER_LIST = [
     {
@@ -117,4 +117,25 @@ export const SERVICES_LIST = [
         image:'/assets/images/teacherspet-pfp.webp',
         title: 'Nubbies'
     }
+  ];
+
+  export const VALUE_LIST = [
+    {
+      icon: <Wthree/>,
+      title: "W3",
+      description:
+        "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.",
+    },
+    {
+      icon: <Blockchain/>,
+      title: "Blockchain Agnostic",
+      description:
+        "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..",
+    },
+    {
+      icon: <Trust/>,
+      title: "Trust",
+      description:
+        "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
+    },
   ];
