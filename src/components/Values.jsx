@@ -4,7 +4,7 @@ import Heading from '../common/Heading';
 
 const Values = () => {
   return (
-    <div className="container pt-[156px] pb-[100px] max-lg:py-24 max-md:py-16 max-sm:py-10 px-4">
+    <div className="font-space-grotesk container pt-[156px] pb-[100px] max-lg:py-24 max-md:py-16 max-sm:py-10 px-4">
        <div className="max-w-[450px] max-sm:max-w-[300px] mx-auto relative">
                 <Heading heading={"Values"}/>
                 <img

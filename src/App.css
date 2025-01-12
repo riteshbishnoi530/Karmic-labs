@@ -3,10 +3,12 @@
 .font-space-grotesk{
   font-family: "Space Grotesk", serif;
 }
+
 *{
   
   font-family: 'Sunflower', sans-serif;
 }
+
 body{
   background-image: url('/public/assets/images/karmic-bg.webp');
   background-position: top;
