@@ -9,7 +9,7 @@ function Karmic() {
         <img
           src="/assets/images/heading-line.webp"
           alt="borders"
-          className="max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
+          className="max-w-[344px] pointer-events-none max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
         />
       </div>
       <p className='text-center text-white font-space-grotesk mt-2 max-lg:mt-5'>We are builders, innovaters, and believers.</p>

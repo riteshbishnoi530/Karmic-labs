@@ -11,7 +11,7 @@ function UpcomingProjects() {
                 <img
                     src="/assets/images/heading-line.webp"
                     alt="borders"
-                    className="max-w-[344px] max-md:max-w-[290px] absolute -top-1 left-32 max-lg:left-28 max-md:left-36 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
+                    className="pointer-events-none max-w-[344px] max-md:max-w-[290px] absolute -top-1 left-32 max-lg:left-28 max-md:left-36 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
                 />
             </div>
             <div className="container flex">

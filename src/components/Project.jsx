@@ -11,7 +11,7 @@ function Project() {
                 <img
                     src="/assets/images/heading-black-line.webp"
                     alt="borders"
-                    className="max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
+                    className="pointer-events-none max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
                 />
             </div>
             <p className='max-w-[532px] mx-auto text-center text-black mt-2 font-space-grotesk'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>

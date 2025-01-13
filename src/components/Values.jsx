@@ -10,7 +10,7 @@ const Values = () => {
                 <img
                     src="/assets/images/heading-line.webp"
                     alt="borders"
-                    className="max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
+                    className="pointer-events-none max-w-[344px] max-md:max-w-[280px] absolute -top-1 left-12 max-md:left-20 max-sm:left-6 max-sm:max-w-[250px] max-sm:-top-4 max-lg:-top-6"
                 />
             </div>
       <div className='flex max-xl:flex-wrap gap-4 pt-[77px] max-xl:justify-center'>
@@ -18,7 +18,7 @@ const Values = () => {
           <div key={i} className='group z-20 w-full max-w-[369px] relative'>
             <div className='group-hover:opacity-100 opacity-0 absolute -top-9 -right-9 -z-10 duration-300 ease-linear max-sm:-right-5'></div>
             <div className='p-5 group-hover:backdrop-blur-[16px] group-hover:bg-off-white border-off-white border rounded-xl transition-all duration-300 ease-linear'>
-             {obj.icon}
+            {obj.icon}
               <h3 className="font-grotesk text-white font-bold text-xl leading-custom-4xl py-2.5">
                 {obj.title}
               </h3>
