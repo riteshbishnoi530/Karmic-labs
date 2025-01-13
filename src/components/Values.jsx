@@ -1,5 +1,6 @@
 import React from 'react'
 import { VALUE_LIST } from '../utils/helper';
+import {Moon} from '../utils/icons';
 import Heading from '../common/Heading';
 
 const Values = () => {
@@ -16,7 +17,7 @@ const Values = () => {
       <div className='flex max-xl:flex-wrap gap-4 pt-[77px] max-xl:justify-center'>
         {VALUE_LIST.map((obj, i) => (
           <div key={i} className='group z-20 w-full max-w-[369px] relative'>
-            <div className='group-hover:opacity-100 opacity-0 absolute -top-9 -right-9 -z-10 duration-300 ease-linear max-sm:-right-5'></div>
+            <div className='group-hover:opacity-100 opacity-0 absolute -top-9 -right-9 -z-10 duration-300 ease-linear max-sm:-right-5'><Moon/></div>
             <div className='p-5 group-hover:backdrop-blur-[16px] group-hover:bg-off-white border-off-white border rounded-xl transition-all duration-300 ease-linear'>
             {obj.icon}
               <h3 className="font-grotesk text-white font-bold text-xl leading-custom-4xl py-2.5">

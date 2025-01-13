@@ -2,6 +2,7 @@
 import React from "react";
 import { SERVICES_LIST } from "../utils/helper";
 import Heading from "../common/Heading";
+import { Moon } from "../utils/icons";
 
 const Services = () => {
     return (
@@ -18,8 +19,10 @@ const Services = () => {
             </div>
             <div className="grid grid-cols-1 font-space-grotesk md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20 max-lg:mt-16 max-md:mt-12">
                 {SERVICES_LIST.map((obj, i) => (
+                    <div className="relative group z-10">
+                                                            <div className='group-hover:opacity-100  opacity-0 absolute -top-9 -right-9 -z-10 duration-300 ease-linear max-sm:-right-5'><Moon/></div>
                     <div
-                        className={`border border-solid border-transparent transition-all ease-linear duration-200 hover:bg-off-white hover:backdrop-blur-[20px] rounded-xl w-full max-w-[364px] p-5 mx-auto`}
+                        className={` border border-solid border-transparent transition-all ease-linear duration-200 hover:bg-off-white hover:backdrop-blur-[20px] rounded-xl w-full max-w-[364px] p-5 mx-auto`}
                         key={i}
                     >
                         <div className="mb-4" >{obj.icon}</div>
@@ -37,6 +40,7 @@ const Services = () => {
                                 obj.description
                             )}
                         </div>
+                    </div>
                     </div>
                 ))}
                 
